@@ -1,0 +1,31 @@
+{
+	"name": "ds_git_src_csv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_git",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"file_flag": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": {
+					"value": "lokesh-sivakumar/de_politicalparties/refs/heads/main/@{dataset().file_flag}",
+					"type": "Expression"
+				}
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

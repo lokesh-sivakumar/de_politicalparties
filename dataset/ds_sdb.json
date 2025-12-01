@@ -1,0 +1,17 @@
+{
+	"name": "ds_sdb",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sdb",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "politicalparties"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

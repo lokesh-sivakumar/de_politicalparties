@@ -1,0 +1,9 @@
+{
+	"name": "adfpoliticalparties",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b5c549d4-c514-404f-9968-fc764041ba61",
+		"tenantId": "f42d967f-6aa2-4a0d-824a-b4f53898e5cd"
+	}
+}
