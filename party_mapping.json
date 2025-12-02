@@ -1,15 +1,15 @@
-{
-    "AIADMK": {"party_code": 1, "party_category": "regional"},
-    "AIMIM": {"party_code": 1, "party_category": "national"},
-    "BJP": {"party_code": 2, "party_category": "national"},
-    "CPI": {"party_code": 3, "party_category": "national"},
-    "CPM": {"party_code": 4, "party_category": "national"},
-    "Congress": {"party_code": 5, "party_category": "national"},
-    "DMDK": {"party_code": 2, "party_category": "regional"},
-    "DMK": {"party_code": 3, "party_category": "regional"},
-    "MNM": {"party_code": 4, "party_category": "regional"},
-    "NTK": {"party_code": 5, "party_category": "regional"},
-    "PMK": {"party_code": 6, "party_category": "regional"},
-    "TVK": {"party_code": 7, "party_category": "regional"},
-    "VCK": {"party_code": 8, "party_category": "regional"}
-}
+[
+  {"party":"AIMIM", "party_code":1, "party_category":"national"},
+  {"party":"BJP", "party_code":2, "party_category":"national"},
+  {"party":"CPI", "party_code":3, "party_category":"national"},
+  {"party":"CPM", "party_code":4, "party_category":"national"},
+  {"party":"Congress", "party_code":5, "party_category":"national"},
+  {"party":"AIADMK", "party_code":6, "party_category":"regional"},
+  {"party":"DMDK", "party_code":7, "party_category":"regional"},
+  {"party":"DMK", "party_code":8, "party_category":"regional"},
+  {"party":"MNM", "party_code":9, "party_category":"regional"},
+  {"party":"NTK", "party_code":10, "party_category":"regional"},
+  {"party":"PMK", "party_code":11, "party_category":"regional"},
+  {"party":"TVK", "party_code":12, "party_category":"regional"},
+  {"party":"VCK", "party_code":13, "party_category":"regional"}
+]
