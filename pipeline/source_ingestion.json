@@ -45,7 +45,7 @@
 						"referenceName": "ds_git_src_csv",
 						"type": "DatasetReference",
 						"parameters": {
-							"file_flag": "PoliticalData.csv"
+							"file_flag": "IncrementalPolitical.csv"
 						}
 					}
 				],
