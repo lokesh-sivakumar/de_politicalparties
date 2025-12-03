@@ -19,6 +19,7 @@
 					"value": "@dataset().file",
 					"type": "Expression"
 				},
+				"folderPath": "rawdata",
 				"fileSystem": "bronze"
 			},
 			"compressionCodec": "snappy"
